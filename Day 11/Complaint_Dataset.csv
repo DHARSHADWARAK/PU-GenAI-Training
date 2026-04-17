@@ -1,0 +1,81 @@
+Trouble,Category,Solution,Alternate Solution,Company Response
+Product arrived damaged,Returns,Request return within 7 days,Offer partial refund,We’re sorry your product arrived damaged. Please initiate a return within 7 days for a full refund.
+Item broken on arrival,Returns,Initiate replacement,Offer refund,Apologies for the damaged item. We will arrange a replacement immediately.
+Received defective product,Returns,Process return request,Provide discount,We regret the inconvenience. Please return the defective product for a resolution.
+Wrong item delivered,Returns,Arrange replacement,Issue refund,We apologize for the incorrect item. A replacement has been initiated.
+Missing item in package,Returns,Verify and refund,Ship missing item,We’re sorry an item was missing. We will process your refund shortly.
+Size mismatch in order,Returns,Exchange item,Offer refund,Please initiate a size exchange. We’re happy to assist further.
+Product not as described,Returns,Return item,Partial refund,We apologize for the mismatch. You may return the product for a refund.
+Return request rejected,Returns,Re-evaluate request,Escalate case,We are reviewing your return request again and will update you shortly.
+Return pickup not done,Returns,Reschedule pickup,Cancel return,We’re arranging another pickup attempt at your convenience.
+Damaged item after few days,Returns,Check warranty,Partial refund,Please share details. We will check warranty coverage for resolution.
+Order delayed,Delivery,Update delivery timeline,Provide coupon,We regret the delay. Your order will arrive soon.
+Late delivery issue,Delivery,Check tracking,Compensation coupon,We apologize for the delay and appreciate your patience.
+Order not delivered yet,Delivery,Contact courier,Escalate issue,We are checking with our delivery partner and will update you shortly.
+Tracking not updated,Delivery,Inform delay,Contact courier,Tracking updates may be delayed. We’re verifying with courier.
+Delivery reschedule request,Delivery,Update delivery slot,Cancel order,Your delivery has been rescheduled as requested.
+Delivery agent not reachable,Delivery,Contact courier,Reschedule delivery,We’re coordinating with the delivery team to resolve this.
+Order marked delivered but not received,Delivery,Investigate issue,Refund after verification,We will investigate this issue and update you soon.
+Delivery delayed due to weather,Delivery,Inform delay,Provide coupon,We regret the delay due to weather conditions.
+Delivery failed attempt,Delivery,Reschedule delivery,Cancel order,We will attempt delivery again at your convenience.
+Wrong delivery address used,Delivery,Correct address,Assist return,We are reviewing the address issue and will assist further.
+Payment deducted but order failed,Payments,Process refund,Escalate bank,Your refund will be processed within 5 business days.
+Double payment charged,Payments,Refund duplicate,Escalate issue,We will refund the duplicate payment shortly.
+Refund not received,Payments,Check refund status,Escalate finance,Your refund is in process and will reflect soon.
+Payment failed repeatedly,Payments,Try different method,Contact bank,Please try another payment method or contact your bank.
+Incorrect billing amount,Payments,Verify invoice,Refund excess,We are correcting the billing discrepancy.
+Refund delayed,Payments,Inform processing time,Escalate case,Refunds take 5–7 days. We appreciate your patience.
+Payment pending,Payments,Check gateway,Retry payment,Your payment is under processing. Please wait.
+Refund rejected,Payments,Check eligibility,Escalate review,We are reviewing your refund request again.
+Wallet amount not updated,Payments,Refresh account,Manual update,We are updating your wallet balance shortly.
+Cashback not credited,Payments,Verify eligibility,Manual credit,Your cashback will be credited after verification.
+Unable to login,Account,Reset password,Manual reset,Please reset your password using the link provided.
+Forgot password,Account,Send reset link,Verify identity,We have sent a password reset link to your email.
+Account locked,Account,Unlock account,Wait and retry,Your account will be unlocked shortly.
+Account hacked,Account,Secure account,Reset credentials,We have secured your account. Please reset your password.
+Email not received,Account,Check spam,Resend email,Please check spam folder or request a resend.
+Account suspended,Account,Review account,Escalate support,We are reviewing your account suspension.
+Unable to update profile,Account,Check system,Manual update,We will assist you in updating your profile.
+Phone number change request,Account,Verify identity,Update number,Your request is being processed securely.
+Account inactive,Account,Reactivate account,Contact support,We have reactivated your account.
+Multiple accounts created,Account,Merge accounts,Deactivate extra,We will help consolidate your accounts.
+App crashing,Technical,Clear cache,Update app,Please clear cache or update the app.
+App not loading,Technical,Check internet,Reinstall app,Ensure stable connection or reinstall app.
+App slow performance,Technical,Close background apps,Update app,Performance should improve after update.
+Error during checkout,Technical,Retry process,Clear data,Please retry checkout after refreshing.
+OTP not received,Technical,Check network,Resend OTP,We can resend the OTP upon request.
+App freezing,Technical,Clear cache,Restart device,Restarting device may resolve the issue.
+Login session expired,Technical,Re-login,Update app,Please log in again to continue.
+App update issue,Technical,Reinstall app,Rollback version,We recommend reinstalling the app.
+Notifications not working,Technical,Check settings,Reinstall app,Enable notifications in settings.
+Payment page not loading,Technical,Check connection,Retry later,Please try again after some time.
+Coupon not working,Offers,Check eligibility,Provide alternate,Offer may not apply. We’ll assist with another.
+Offer expired,Offers,Verify expiry,Provide new coupon,We’ll provide a new offer for you.
+Discount not applied,Offers,Apply manually,Provide coupon,Discount will be applied shortly.
+Cashback issue,Offers,Verify eligibility,Manual credit,We will credit cashback soon.
+Promo code invalid,Offers,Check code,Provide alternate,Please try another valid promo code.
+Offer not visible,Offers,Check eligibility,Enable manually,We will check and update the offer.
+Offer not applicable,Offers,Explain rules,Provide alternate,Offer conditions may not be met.
+Multiple offers conflict,Offers,Apply best offer,Explain policy,Best available offer has been applied.
+Discount mismatch,Offers,Correct pricing,Manual fix,We are correcting the pricing.
+Referral bonus missing,Offers,Verify referral,Manual credit,Referral bonus will be credited.
+Order placed by mistake,Orders,Cancel order,Contact support,Your order has been cancelled.
+Unable to cancel order,Orders,Explain policy,Return later,Order cancellation window has passed.
+Modify order request,Orders,Allow before dispatch,Cancel and reorder,Please modify before dispatch.
+Order not visible,Orders,Refresh account,Check backend,We are checking your order details.
+Duplicate order placed,Orders,Cancel duplicate,Refund extra,We have cancelled the duplicate order.
+Order stuck in processing,Orders,Check status,Escalate issue,We are resolving the processing delay.
+Order confirmation not received,Orders,Resend confirmation,Check email,Confirmation has been resent.
+Invoice not available,Orders,Send invoice,Download option,Invoice is now available.
+Order shipped incorrectly,Orders,Assist return,Refund,We will help you return the order.
+Order delayed due to stock,Orders,Inform timeline,Offer cancellation,Item will be restocked soon.
+Product damaged after use,Returns,Check warranty,Reject claim,Please check warranty coverage.
+Late return request,Returns,Reject request,Offer discount,Return window has expired.
+Used product return request,Returns,Reject return,Offer support,Used items are not eligible for return.
+Packaging missing for return,Returns,Reject return,Partial refund,Original packaging required.
+Return refund partial,Returns,Explain deduction,Escalate case,Refund adjusted as per policy.
+High delay complaint,Delivery,Priority delivery,Compensation,We are expediting your delivery.
+Severe payment issue,Payments,Immediate refund,Escalate urgent,Your issue is being handled urgently.
+Critical account issue,Account,Immediate support,Escalate team,We are prioritizing your request.
+Major app bug,Technical,Fix update,Temporary workaround,Our team is working on a fix.
+Special offer complaint,Offers,Provide new offer,Escalate case,We will provide a better offer.

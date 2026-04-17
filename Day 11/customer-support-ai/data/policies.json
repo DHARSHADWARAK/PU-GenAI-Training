@@ -1,0 +1,1423 @@
+[
+  {
+    "id": 1,
+    "title": "Product arrived damaged",
+    "category": "Returns",
+    "keywords": [
+      "product",
+      "arrived",
+      "damaged",
+      "returns",
+      "return",
+      "days",
+      "partial",
+      "refund"
+    ],
+    "solution": "Request return within 7 days",
+    "alternate_solution": "Offer partial refund",
+    "company_response": "We’re sorry your product arrived damaged. Please initiate a return within 7 days for a full refund.",
+    "content": "Issue: Product arrived damaged. Category: Returns. Primary resolution: Request return within 7 days. Alternate resolution: Offer partial refund. Standard response: We’re sorry your product arrived damaged. Please initiate a return within 7 days for a full refund."
+  },
+  {
+    "id": 2,
+    "title": "Item broken on arrival",
+    "category": "Returns",
+    "keywords": [
+      "item",
+      "broken",
+      "arrival",
+      "returns",
+      "replacement",
+      "refund"
+    ],
+    "solution": "Initiate replacement",
+    "alternate_solution": "Offer refund",
+    "company_response": "Apologies for the damaged item. We will arrange a replacement immediately.",
+    "content": "Issue: Item broken on arrival. Category: Returns. Primary resolution: Initiate replacement. Alternate resolution: Offer refund. Standard response: Apologies for the damaged item. We will arrange a replacement immediately."
+  },
+  {
+    "id": 3,
+    "title": "Received defective product",
+    "category": "Returns",
+    "keywords": [
+      "received",
+      "defective",
+      "product",
+      "returns",
+      "return",
+      "discount"
+    ],
+    "solution": "Process return request",
+    "alternate_solution": "Provide discount",
+    "company_response": "We regret the inconvenience. Please return the defective product for a resolution.",
+    "content": "Issue: Received defective product. Category: Returns. Primary resolution: Process return request. Alternate resolution: Provide discount. Standard response: We regret the inconvenience. Please return the defective product for a resolution."
+  },
+  {
+    "id": 4,
+    "title": "Wrong item delivered",
+    "category": "Returns",
+    "keywords": [
+      "wrong",
+      "item",
+      "delivered",
+      "returns",
+      "replacement",
+      "refund"
+    ],
+    "solution": "Arrange replacement",
+    "alternate_solution": "Issue refund",
+    "company_response": "We apologize for the incorrect item. A replacement has been initiated.",
+    "content": "Issue: Wrong item delivered. Category: Returns. Primary resolution: Arrange replacement. Alternate resolution: Issue refund. Standard response: We apologize for the incorrect item. A replacement has been initiated."
+  },
+  {
+    "id": 5,
+    "title": "Missing item in package",
+    "category": "Returns",
+    "keywords": [
+      "missing",
+      "item",
+      "package",
+      "returns",
+      "verify",
+      "refund",
+      "ship"
+    ],
+    "solution": "Verify and refund",
+    "alternate_solution": "Ship missing item",
+    "company_response": "We’re sorry an item was missing. We will process your refund shortly.",
+    "content": "Issue: Missing item in package. Category: Returns. Primary resolution: Verify and refund. Alternate resolution: Ship missing item. Standard response: We’re sorry an item was missing. We will process your refund shortly."
+  },
+  {
+    "id": 6,
+    "title": "Size mismatch in order",
+    "category": "Returns",
+    "keywords": [
+      "size",
+      "mismatch",
+      "order",
+      "returns",
+      "exchange",
+      "item",
+      "refund"
+    ],
+    "solution": "Exchange item",
+    "alternate_solution": "Offer refund",
+    "company_response": "Please initiate a size exchange. We’re happy to assist further.",
+    "content": "Issue: Size mismatch in order. Category: Returns. Primary resolution: Exchange item. Alternate resolution: Offer refund. Standard response: Please initiate a size exchange. We’re happy to assist further."
+  },
+  {
+    "id": 7,
+    "title": "Product not as described",
+    "category": "Returns",
+    "keywords": [
+      "product",
+      "described",
+      "returns",
+      "return",
+      "item",
+      "partial",
+      "refund"
+    ],
+    "solution": "Return item",
+    "alternate_solution": "Partial refund",
+    "company_response": "We apologize for the mismatch. You may return the product for a refund.",
+    "content": "Issue: Product not as described. Category: Returns. Primary resolution: Return item. Alternate resolution: Partial refund. Standard response: We apologize for the mismatch. You may return the product for a refund."
+  },
+  {
+    "id": 8,
+    "title": "Return request rejected",
+    "category": "Returns",
+    "keywords": [
+      "return",
+      "rejected",
+      "returns",
+      "evaluate",
+      "escalate",
+      "case"
+    ],
+    "solution": "Re-evaluate request",
+    "alternate_solution": "Escalate case",
+    "company_response": "We are reviewing your return request again and will update you shortly.",
+    "content": "Issue: Return request rejected. Category: Returns. Primary resolution: Re-evaluate request. Alternate resolution: Escalate case. Standard response: We are reviewing your return request again and will update you shortly."
+  },
+  {
+    "id": 9,
+    "title": "Return pickup not done",
+    "category": "Returns",
+    "keywords": [
+      "return",
+      "pickup",
+      "done",
+      "returns",
+      "reschedule",
+      "cancel"
+    ],
+    "solution": "Reschedule pickup",
+    "alternate_solution": "Cancel return",
+    "company_response": "We’re arranging another pickup attempt at your convenience.",
+    "content": "Issue: Return pickup not done. Category: Returns. Primary resolution: Reschedule pickup. Alternate resolution: Cancel return. Standard response: We’re arranging another pickup attempt at your convenience."
+  },
+  {
+    "id": 10,
+    "title": "Damaged item after few days",
+    "category": "Returns",
+    "keywords": [
+      "damaged",
+      "item",
+      "after",
+      "few",
+      "days",
+      "returns",
+      "check",
+      "warranty",
+      "partial",
+      "refund"
+    ],
+    "solution": "Check warranty",
+    "alternate_solution": "Partial refund",
+    "company_response": "Please share details. We will check warranty coverage for resolution.",
+    "content": "Issue: Damaged item after few days. Category: Returns. Primary resolution: Check warranty. Alternate resolution: Partial refund. Standard response: Please share details. We will check warranty coverage for resolution."
+  },
+  {
+    "id": 11,
+    "title": "Order delayed",
+    "category": "Delivery",
+    "keywords": [
+      "order",
+      "delayed",
+      "delivery",
+      "update",
+      "timeline",
+      "coupon"
+    ],
+    "solution": "Update delivery timeline",
+    "alternate_solution": "Provide coupon",
+    "company_response": "We regret the delay. Your order will arrive soon.",
+    "content": "Issue: Order delayed. Category: Delivery. Primary resolution: Update delivery timeline. Alternate resolution: Provide coupon. Standard response: We regret the delay. Your order will arrive soon."
+  },
+  {
+    "id": 12,
+    "title": "Late delivery issue",
+    "category": "Delivery",
+    "keywords": [
+      "late",
+      "delivery",
+      "check",
+      "tracking",
+      "compensation",
+      "coupon"
+    ],
+    "solution": "Check tracking",
+    "alternate_solution": "Compensation coupon",
+    "company_response": "We apologize for the delay and appreciate your patience.",
+    "content": "Issue: Late delivery issue. Category: Delivery. Primary resolution: Check tracking. Alternate resolution: Compensation coupon. Standard response: We apologize for the delay and appreciate your patience."
+  },
+  {
+    "id": 13,
+    "title": "Order not delivered yet",
+    "category": "Delivery",
+    "keywords": [
+      "order",
+      "delivered",
+      "yet",
+      "delivery",
+      "contact",
+      "courier",
+      "escalate"
+    ],
+    "solution": "Contact courier",
+    "alternate_solution": "Escalate issue",
+    "company_response": "We are checking with our delivery partner and will update you shortly.",
+    "content": "Issue: Order not delivered yet. Category: Delivery. Primary resolution: Contact courier. Alternate resolution: Escalate issue. Standard response: We are checking with our delivery partner and will update you shortly."
+  },
+  {
+    "id": 14,
+    "title": "Tracking not updated",
+    "category": "Delivery",
+    "keywords": [
+      "tracking",
+      "updated",
+      "delivery",
+      "inform",
+      "delay",
+      "contact",
+      "courier"
+    ],
+    "solution": "Inform delay",
+    "alternate_solution": "Contact courier",
+    "company_response": "Tracking updates may be delayed. We’re verifying with courier.",
+    "content": "Issue: Tracking not updated. Category: Delivery. Primary resolution: Inform delay. Alternate resolution: Contact courier. Standard response: Tracking updates may be delayed. We’re verifying with courier."
+  },
+  {
+    "id": 15,
+    "title": "Delivery reschedule request",
+    "category": "Delivery",
+    "keywords": [
+      "delivery",
+      "reschedule",
+      "update",
+      "slot",
+      "cancel",
+      "order"
+    ],
+    "solution": "Update delivery slot",
+    "alternate_solution": "Cancel order",
+    "company_response": "Your delivery has been rescheduled as requested.",
+    "content": "Issue: Delivery reschedule request. Category: Delivery. Primary resolution: Update delivery slot. Alternate resolution: Cancel order. Standard response: Your delivery has been rescheduled as requested."
+  },
+  {
+    "id": 16,
+    "title": "Delivery agent not reachable",
+    "category": "Delivery",
+    "keywords": [
+      "delivery",
+      "agent",
+      "reachable",
+      "contact",
+      "courier",
+      "reschedule"
+    ],
+    "solution": "Contact courier",
+    "alternate_solution": "Reschedule delivery",
+    "company_response": "We’re coordinating with the delivery team to resolve this.",
+    "content": "Issue: Delivery agent not reachable. Category: Delivery. Primary resolution: Contact courier. Alternate resolution: Reschedule delivery. Standard response: We’re coordinating with the delivery team to resolve this."
+  },
+  {
+    "id": 17,
+    "title": "Order marked delivered but not received",
+    "category": "Delivery",
+    "keywords": [
+      "order",
+      "marked",
+      "delivered",
+      "but",
+      "received",
+      "delivery",
+      "investigate",
+      "refund",
+      "after",
+      "verification"
+    ],
+    "solution": "Investigate issue",
+    "alternate_solution": "Refund after verification",
+    "company_response": "We will investigate this issue and update you soon.",
+    "content": "Issue: Order marked delivered but not received. Category: Delivery. Primary resolution: Investigate issue. Alternate resolution: Refund after verification. Standard response: We will investigate this issue and update you soon."
+  },
+  {
+    "id": 18,
+    "title": "Delivery delayed due to weather",
+    "category": "Delivery",
+    "keywords": [
+      "delivery",
+      "delayed",
+      "due",
+      "weather",
+      "inform",
+      "delay",
+      "coupon"
+    ],
+    "solution": "Inform delay",
+    "alternate_solution": "Provide coupon",
+    "company_response": "We regret the delay due to weather conditions.",
+    "content": "Issue: Delivery delayed due to weather. Category: Delivery. Primary resolution: Inform delay. Alternate resolution: Provide coupon. Standard response: We regret the delay due to weather conditions."
+  },
+  {
+    "id": 19,
+    "title": "Delivery failed attempt",
+    "category": "Delivery",
+    "keywords": [
+      "delivery",
+      "failed",
+      "attempt",
+      "reschedule",
+      "cancel",
+      "order"
+    ],
+    "solution": "Reschedule delivery",
+    "alternate_solution": "Cancel order",
+    "company_response": "We will attempt delivery again at your convenience.",
+    "content": "Issue: Delivery failed attempt. Category: Delivery. Primary resolution: Reschedule delivery. Alternate resolution: Cancel order. Standard response: We will attempt delivery again at your convenience."
+  },
+  {
+    "id": 20,
+    "title": "Wrong delivery address used",
+    "category": "Delivery",
+    "keywords": [
+      "wrong",
+      "delivery",
+      "address",
+      "used",
+      "correct",
+      "return"
+    ],
+    "solution": "Correct address",
+    "alternate_solution": "Assist return",
+    "company_response": "We are reviewing the address issue and will assist further.",
+    "content": "Issue: Wrong delivery address used. Category: Delivery. Primary resolution: Correct address. Alternate resolution: Assist return. Standard response: We are reviewing the address issue and will assist further."
+  },
+  {
+    "id": 21,
+    "title": "Payment deducted but order failed",
+    "category": "Payments",
+    "keywords": [
+      "payment",
+      "deducted",
+      "but",
+      "order",
+      "failed",
+      "payments",
+      "refund",
+      "escalate",
+      "bank"
+    ],
+    "solution": "Process refund",
+    "alternate_solution": "Escalate bank",
+    "company_response": "Your refund will be processed within 5 business days.",
+    "content": "Issue: Payment deducted but order failed. Category: Payments. Primary resolution: Process refund. Alternate resolution: Escalate bank. Standard response: Your refund will be processed within 5 business days."
+  },
+  {
+    "id": 22,
+    "title": "Double payment charged",
+    "category": "Payments",
+    "keywords": [
+      "double",
+      "payment",
+      "charged",
+      "payments",
+      "refund",
+      "duplicate",
+      "escalate"
+    ],
+    "solution": "Refund duplicate",
+    "alternate_solution": "Escalate issue",
+    "company_response": "We will refund the duplicate payment shortly.",
+    "content": "Issue: Double payment charged. Category: Payments. Primary resolution: Refund duplicate. Alternate resolution: Escalate issue. Standard response: We will refund the duplicate payment shortly."
+  },
+  {
+    "id": 23,
+    "title": "Refund not received",
+    "category": "Payments",
+    "keywords": [
+      "refund",
+      "received",
+      "payments",
+      "check",
+      "status",
+      "escalate",
+      "finance"
+    ],
+    "solution": "Check refund status",
+    "alternate_solution": "Escalate finance",
+    "company_response": "Your refund is in process and will reflect soon.",
+    "content": "Issue: Refund not received. Category: Payments. Primary resolution: Check refund status. Alternate resolution: Escalate finance. Standard response: Your refund is in process and will reflect soon."
+  },
+  {
+    "id": 24,
+    "title": "Payment failed repeatedly",
+    "category": "Payments",
+    "keywords": [
+      "payment",
+      "failed",
+      "repeatedly",
+      "payments",
+      "try",
+      "different",
+      "method",
+      "contact",
+      "bank"
+    ],
+    "solution": "Try different method",
+    "alternate_solution": "Contact bank",
+    "company_response": "Please try another payment method or contact your bank.",
+    "content": "Issue: Payment failed repeatedly. Category: Payments. Primary resolution: Try different method. Alternate resolution: Contact bank. Standard response: Please try another payment method or contact your bank."
+  },
+  {
+    "id": 25,
+    "title": "Incorrect billing amount",
+    "category": "Payments",
+    "keywords": [
+      "incorrect",
+      "billing",
+      "amount",
+      "payments",
+      "verify",
+      "invoice",
+      "refund",
+      "excess"
+    ],
+    "solution": "Verify invoice",
+    "alternate_solution": "Refund excess",
+    "company_response": "We are correcting the billing discrepancy.",
+    "content": "Issue: Incorrect billing amount. Category: Payments. Primary resolution: Verify invoice. Alternate resolution: Refund excess. Standard response: We are correcting the billing discrepancy."
+  },
+  {
+    "id": 26,
+    "title": "Refund delayed",
+    "category": "Payments",
+    "keywords": [
+      "refund",
+      "delayed",
+      "payments",
+      "inform",
+      "processing",
+      "time",
+      "escalate",
+      "case"
+    ],
+    "solution": "Inform processing time",
+    "alternate_solution": "Escalate case",
+    "company_response": "Refunds take 5–7 days. We appreciate your patience.",
+    "content": "Issue: Refund delayed. Category: Payments. Primary resolution: Inform processing time. Alternate resolution: Escalate case. Standard response: Refunds take 5–7 days. We appreciate your patience."
+  },
+  {
+    "id": 27,
+    "title": "Payment pending",
+    "category": "Payments",
+    "keywords": [
+      "payment",
+      "pending",
+      "payments",
+      "check",
+      "gateway",
+      "retry"
+    ],
+    "solution": "Check gateway",
+    "alternate_solution": "Retry payment",
+    "company_response": "Your payment is under processing. Please wait.",
+    "content": "Issue: Payment pending. Category: Payments. Primary resolution: Check gateway. Alternate resolution: Retry payment. Standard response: Your payment is under processing. Please wait."
+  },
+  {
+    "id": 28,
+    "title": "Refund rejected",
+    "category": "Payments",
+    "keywords": [
+      "refund",
+      "rejected",
+      "payments",
+      "check",
+      "eligibility",
+      "escalate",
+      "review"
+    ],
+    "solution": "Check eligibility",
+    "alternate_solution": "Escalate review",
+    "company_response": "We are reviewing your refund request again.",
+    "content": "Issue: Refund rejected. Category: Payments. Primary resolution: Check eligibility. Alternate resolution: Escalate review. Standard response: We are reviewing your refund request again."
+  },
+  {
+    "id": 29,
+    "title": "Wallet amount not updated",
+    "category": "Payments",
+    "keywords": [
+      "wallet",
+      "amount",
+      "updated",
+      "payments",
+      "refresh",
+      "account",
+      "manual",
+      "update"
+    ],
+    "solution": "Refresh account",
+    "alternate_solution": "Manual update",
+    "company_response": "We are updating your wallet balance shortly.",
+    "content": "Issue: Wallet amount not updated. Category: Payments. Primary resolution: Refresh account. Alternate resolution: Manual update. Standard response: We are updating your wallet balance shortly."
+  },
+  {
+    "id": 30,
+    "title": "Cashback not credited",
+    "category": "Payments",
+    "keywords": [
+      "cashback",
+      "credited",
+      "payments",
+      "verify",
+      "eligibility",
+      "manual",
+      "credit"
+    ],
+    "solution": "Verify eligibility",
+    "alternate_solution": "Manual credit",
+    "company_response": "Your cashback will be credited after verification.",
+    "content": "Issue: Cashback not credited. Category: Payments. Primary resolution: Verify eligibility. Alternate resolution: Manual credit. Standard response: Your cashback will be credited after verification."
+  },
+  {
+    "id": 31,
+    "title": "Unable to login",
+    "category": "Account",
+    "keywords": [
+      "unable",
+      "login",
+      "account",
+      "reset",
+      "password",
+      "manual"
+    ],
+    "solution": "Reset password",
+    "alternate_solution": "Manual reset",
+    "company_response": "Please reset your password using the link provided.",
+    "content": "Issue: Unable to login. Category: Account. Primary resolution: Reset password. Alternate resolution: Manual reset. Standard response: Please reset your password using the link provided."
+  },
+  {
+    "id": 32,
+    "title": "Forgot password",
+    "category": "Account",
+    "keywords": [
+      "forgot",
+      "password",
+      "account",
+      "send",
+      "reset",
+      "link",
+      "verify",
+      "identity"
+    ],
+    "solution": "Send reset link",
+    "alternate_solution": "Verify identity",
+    "company_response": "We have sent a password reset link to your email.",
+    "content": "Issue: Forgot password. Category: Account. Primary resolution: Send reset link. Alternate resolution: Verify identity. Standard response: We have sent a password reset link to your email."
+  },
+  {
+    "id": 33,
+    "title": "Account locked",
+    "category": "Account",
+    "keywords": [
+      "account",
+      "locked",
+      "unlock",
+      "wait",
+      "retry"
+    ],
+    "solution": "Unlock account",
+    "alternate_solution": "Wait and retry",
+    "company_response": "Your account will be unlocked shortly.",
+    "content": "Issue: Account locked. Category: Account. Primary resolution: Unlock account. Alternate resolution: Wait and retry. Standard response: Your account will be unlocked shortly."
+  },
+  {
+    "id": 34,
+    "title": "Account hacked",
+    "category": "Account",
+    "keywords": [
+      "account",
+      "hacked",
+      "secure",
+      "reset",
+      "credentials"
+    ],
+    "solution": "Secure account",
+    "alternate_solution": "Reset credentials",
+    "company_response": "We have secured your account. Please reset your password.",
+    "content": "Issue: Account hacked. Category: Account. Primary resolution: Secure account. Alternate resolution: Reset credentials. Standard response: We have secured your account. Please reset your password."
+  },
+  {
+    "id": 35,
+    "title": "Email not received",
+    "category": "Account",
+    "keywords": [
+      "email",
+      "received",
+      "account",
+      "check",
+      "spam",
+      "resend"
+    ],
+    "solution": "Check spam",
+    "alternate_solution": "Resend email",
+    "company_response": "Please check spam folder or request a resend.",
+    "content": "Issue: Email not received. Category: Account. Primary resolution: Check spam. Alternate resolution: Resend email. Standard response: Please check spam folder or request a resend."
+  },
+  {
+    "id": 36,
+    "title": "Account suspended",
+    "category": "Account",
+    "keywords": [
+      "account",
+      "suspended",
+      "review",
+      "escalate",
+      "support"
+    ],
+    "solution": "Review account",
+    "alternate_solution": "Escalate support",
+    "company_response": "We are reviewing your account suspension.",
+    "content": "Issue: Account suspended. Category: Account. Primary resolution: Review account. Alternate resolution: Escalate support. Standard response: We are reviewing your account suspension."
+  },
+  {
+    "id": 37,
+    "title": "Unable to update profile",
+    "category": "Account",
+    "keywords": [
+      "unable",
+      "update",
+      "profile",
+      "account",
+      "check",
+      "system",
+      "manual"
+    ],
+    "solution": "Check system",
+    "alternate_solution": "Manual update",
+    "company_response": "We will assist you in updating your profile.",
+    "content": "Issue: Unable to update profile. Category: Account. Primary resolution: Check system. Alternate resolution: Manual update. Standard response: We will assist you in updating your profile."
+  },
+  {
+    "id": 38,
+    "title": "Phone number change request",
+    "category": "Account",
+    "keywords": [
+      "phone",
+      "number",
+      "change",
+      "account",
+      "verify",
+      "identity",
+      "update"
+    ],
+    "solution": "Verify identity",
+    "alternate_solution": "Update number",
+    "company_response": "Your request is being processed securely.",
+    "content": "Issue: Phone number change request. Category: Account. Primary resolution: Verify identity. Alternate resolution: Update number. Standard response: Your request is being processed securely."
+  },
+  {
+    "id": 39,
+    "title": "Account inactive",
+    "category": "Account",
+    "keywords": [
+      "account",
+      "inactive",
+      "reactivate",
+      "contact",
+      "support"
+    ],
+    "solution": "Reactivate account",
+    "alternate_solution": "Contact support",
+    "company_response": "We have reactivated your account.",
+    "content": "Issue: Account inactive. Category: Account. Primary resolution: Reactivate account. Alternate resolution: Contact support. Standard response: We have reactivated your account."
+  },
+  {
+    "id": 40,
+    "title": "Multiple accounts created",
+    "category": "Account",
+    "keywords": [
+      "multiple",
+      "accounts",
+      "created",
+      "account",
+      "merge",
+      "deactivate",
+      "extra"
+    ],
+    "solution": "Merge accounts",
+    "alternate_solution": "Deactivate extra",
+    "company_response": "We will help consolidate your accounts.",
+    "content": "Issue: Multiple accounts created. Category: Account. Primary resolution: Merge accounts. Alternate resolution: Deactivate extra. Standard response: We will help consolidate your accounts."
+  },
+  {
+    "id": 41,
+    "title": "App crashing",
+    "category": "Technical",
+    "keywords": [
+      "app",
+      "crashing",
+      "technical",
+      "clear",
+      "cache",
+      "update"
+    ],
+    "solution": "Clear cache",
+    "alternate_solution": "Update app",
+    "company_response": "Please clear cache or update the app.",
+    "content": "Issue: App crashing. Category: Technical. Primary resolution: Clear cache. Alternate resolution: Update app. Standard response: Please clear cache or update the app."
+  },
+  {
+    "id": 42,
+    "title": "App not loading",
+    "category": "Technical",
+    "keywords": [
+      "app",
+      "loading",
+      "technical",
+      "check",
+      "internet",
+      "reinstall"
+    ],
+    "solution": "Check internet",
+    "alternate_solution": "Reinstall app",
+    "company_response": "Ensure stable connection or reinstall app.",
+    "content": "Issue: App not loading. Category: Technical. Primary resolution: Check internet. Alternate resolution: Reinstall app. Standard response: Ensure stable connection or reinstall app."
+  },
+  {
+    "id": 43,
+    "title": "App slow performance",
+    "category": "Technical",
+    "keywords": [
+      "app",
+      "slow",
+      "performance",
+      "technical",
+      "close",
+      "background",
+      "apps",
+      "update"
+    ],
+    "solution": "Close background apps",
+    "alternate_solution": "Update app",
+    "company_response": "Performance should improve after update.",
+    "content": "Issue: App slow performance. Category: Technical. Primary resolution: Close background apps. Alternate resolution: Update app. Standard response: Performance should improve after update."
+  },
+  {
+    "id": 44,
+    "title": "Error during checkout",
+    "category": "Technical",
+    "keywords": [
+      "error",
+      "during",
+      "checkout",
+      "technical",
+      "retry",
+      "clear",
+      "data"
+    ],
+    "solution": "Retry process",
+    "alternate_solution": "Clear data",
+    "company_response": "Please retry checkout after refreshing.",
+    "content": "Issue: Error during checkout. Category: Technical. Primary resolution: Retry process. Alternate resolution: Clear data. Standard response: Please retry checkout after refreshing."
+  },
+  {
+    "id": 45,
+    "title": "OTP not received",
+    "category": "Technical",
+    "keywords": [
+      "otp",
+      "received",
+      "technical",
+      "check",
+      "network",
+      "resend"
+    ],
+    "solution": "Check network",
+    "alternate_solution": "Resend OTP",
+    "company_response": "We can resend the OTP upon request.",
+    "content": "Issue: OTP not received. Category: Technical. Primary resolution: Check network. Alternate resolution: Resend OTP. Standard response: We can resend the OTP upon request."
+  },
+  {
+    "id": 46,
+    "title": "App freezing",
+    "category": "Technical",
+    "keywords": [
+      "app",
+      "freezing",
+      "technical",
+      "clear",
+      "cache",
+      "restart",
+      "device"
+    ],
+    "solution": "Clear cache",
+    "alternate_solution": "Restart device",
+    "company_response": "Restarting device may resolve the issue.",
+    "content": "Issue: App freezing. Category: Technical. Primary resolution: Clear cache. Alternate resolution: Restart device. Standard response: Restarting device may resolve the issue."
+  },
+  {
+    "id": 47,
+    "title": "Login session expired",
+    "category": "Technical",
+    "keywords": [
+      "login",
+      "session",
+      "expired",
+      "technical",
+      "update",
+      "app"
+    ],
+    "solution": "Re-login",
+    "alternate_solution": "Update app",
+    "company_response": "Please log in again to continue.",
+    "content": "Issue: Login session expired. Category: Technical. Primary resolution: Re-login. Alternate resolution: Update app. Standard response: Please log in again to continue."
+  },
+  {
+    "id": 48,
+    "title": "App update issue",
+    "category": "Technical",
+    "keywords": [
+      "app",
+      "update",
+      "technical",
+      "reinstall",
+      "rollback",
+      "version"
+    ],
+    "solution": "Reinstall app",
+    "alternate_solution": "Rollback version",
+    "company_response": "We recommend reinstalling the app.",
+    "content": "Issue: App update issue. Category: Technical. Primary resolution: Reinstall app. Alternate resolution: Rollback version. Standard response: We recommend reinstalling the app."
+  },
+  {
+    "id": 49,
+    "title": "Notifications not working",
+    "category": "Technical",
+    "keywords": [
+      "notifications",
+      "working",
+      "technical",
+      "check",
+      "settings",
+      "reinstall",
+      "app"
+    ],
+    "solution": "Check settings",
+    "alternate_solution": "Reinstall app",
+    "company_response": "Enable notifications in settings.",
+    "content": "Issue: Notifications not working. Category: Technical. Primary resolution: Check settings. Alternate resolution: Reinstall app. Standard response: Enable notifications in settings."
+  },
+  {
+    "id": 50,
+    "title": "Payment page not loading",
+    "category": "Technical",
+    "keywords": [
+      "payment",
+      "page",
+      "loading",
+      "technical",
+      "check",
+      "connection",
+      "retry",
+      "later"
+    ],
+    "solution": "Check connection",
+    "alternate_solution": "Retry later",
+    "company_response": "Please try again after some time.",
+    "content": "Issue: Payment page not loading. Category: Technical. Primary resolution: Check connection. Alternate resolution: Retry later. Standard response: Please try again after some time."
+  },
+  {
+    "id": 51,
+    "title": "Coupon not working",
+    "category": "Offers",
+    "keywords": [
+      "coupon",
+      "working",
+      "offers",
+      "check",
+      "eligibility",
+      "alternate"
+    ],
+    "solution": "Check eligibility",
+    "alternate_solution": "Provide alternate",
+    "company_response": "Offer may not apply. We’ll assist with another.",
+    "content": "Issue: Coupon not working. Category: Offers. Primary resolution: Check eligibility. Alternate resolution: Provide alternate. Standard response: Offer may not apply. We’ll assist with another."
+  },
+  {
+    "id": 52,
+    "title": "Offer expired",
+    "category": "Offers",
+    "keywords": [
+      "expired",
+      "offers",
+      "verify",
+      "expiry",
+      "new",
+      "coupon"
+    ],
+    "solution": "Verify expiry",
+    "alternate_solution": "Provide new coupon",
+    "company_response": "We’ll provide a new offer for you.",
+    "content": "Issue: Offer expired. Category: Offers. Primary resolution: Verify expiry. Alternate resolution: Provide new coupon. Standard response: We’ll provide a new offer for you."
+  },
+  {
+    "id": 53,
+    "title": "Discount not applied",
+    "category": "Offers",
+    "keywords": [
+      "discount",
+      "applied",
+      "offers",
+      "apply",
+      "manually",
+      "coupon"
+    ],
+    "solution": "Apply manually",
+    "alternate_solution": "Provide coupon",
+    "company_response": "Discount will be applied shortly.",
+    "content": "Issue: Discount not applied. Category: Offers. Primary resolution: Apply manually. Alternate resolution: Provide coupon. Standard response: Discount will be applied shortly."
+  },
+  {
+    "id": 54,
+    "title": "Cashback issue",
+    "category": "Offers",
+    "keywords": [
+      "cashback",
+      "offers",
+      "verify",
+      "eligibility",
+      "manual",
+      "credit"
+    ],
+    "solution": "Verify eligibility",
+    "alternate_solution": "Manual credit",
+    "company_response": "We will credit cashback soon.",
+    "content": "Issue: Cashback issue. Category: Offers. Primary resolution: Verify eligibility. Alternate resolution: Manual credit. Standard response: We will credit cashback soon."
+  },
+  {
+    "id": 55,
+    "title": "Promo code invalid",
+    "category": "Offers",
+    "keywords": [
+      "promo",
+      "code",
+      "invalid",
+      "offers",
+      "check",
+      "alternate"
+    ],
+    "solution": "Check code",
+    "alternate_solution": "Provide alternate",
+    "company_response": "Please try another valid promo code.",
+    "content": "Issue: Promo code invalid. Category: Offers. Primary resolution: Check code. Alternate resolution: Provide alternate. Standard response: Please try another valid promo code."
+  },
+  {
+    "id": 56,
+    "title": "Offer not visible",
+    "category": "Offers",
+    "keywords": [
+      "visible",
+      "offers",
+      "check",
+      "eligibility",
+      "enable",
+      "manually"
+    ],
+    "solution": "Check eligibility",
+    "alternate_solution": "Enable manually",
+    "company_response": "We will check and update the offer.",
+    "content": "Issue: Offer not visible. Category: Offers. Primary resolution: Check eligibility. Alternate resolution: Enable manually. Standard response: We will check and update the offer."
+  },
+  {
+    "id": 57,
+    "title": "Offer not applicable",
+    "category": "Offers",
+    "keywords": [
+      "applicable",
+      "offers",
+      "explain",
+      "rules",
+      "alternate"
+    ],
+    "solution": "Explain rules",
+    "alternate_solution": "Provide alternate",
+    "company_response": "Offer conditions may not be met.",
+    "content": "Issue: Offer not applicable. Category: Offers. Primary resolution: Explain rules. Alternate resolution: Provide alternate. Standard response: Offer conditions may not be met."
+  },
+  {
+    "id": 58,
+    "title": "Multiple offers conflict",
+    "category": "Offers",
+    "keywords": [
+      "multiple",
+      "offers",
+      "conflict",
+      "apply",
+      "best",
+      "explain",
+      "policy"
+    ],
+    "solution": "Apply best offer",
+    "alternate_solution": "Explain policy",
+    "company_response": "Best available offer has been applied.",
+    "content": "Issue: Multiple offers conflict. Category: Offers. Primary resolution: Apply best offer. Alternate resolution: Explain policy. Standard response: Best available offer has been applied."
+  },
+  {
+    "id": 59,
+    "title": "Discount mismatch",
+    "category": "Offers",
+    "keywords": [
+      "discount",
+      "mismatch",
+      "offers",
+      "correct",
+      "pricing",
+      "manual",
+      "fix"
+    ],
+    "solution": "Correct pricing",
+    "alternate_solution": "Manual fix",
+    "company_response": "We are correcting the pricing.",
+    "content": "Issue: Discount mismatch. Category: Offers. Primary resolution: Correct pricing. Alternate resolution: Manual fix. Standard response: We are correcting the pricing."
+  },
+  {
+    "id": 60,
+    "title": "Referral bonus missing",
+    "category": "Offers",
+    "keywords": [
+      "referral",
+      "bonus",
+      "missing",
+      "offers",
+      "verify",
+      "manual",
+      "credit"
+    ],
+    "solution": "Verify referral",
+    "alternate_solution": "Manual credit",
+    "company_response": "Referral bonus will be credited.",
+    "content": "Issue: Referral bonus missing. Category: Offers. Primary resolution: Verify referral. Alternate resolution: Manual credit. Standard response: Referral bonus will be credited."
+  },
+  {
+    "id": 61,
+    "title": "Order placed by mistake",
+    "category": "Orders",
+    "keywords": [
+      "order",
+      "placed",
+      "mistake",
+      "orders",
+      "cancel",
+      "contact",
+      "support"
+    ],
+    "solution": "Cancel order",
+    "alternate_solution": "Contact support",
+    "company_response": "Your order has been cancelled.",
+    "content": "Issue: Order placed by mistake. Category: Orders. Primary resolution: Cancel order. Alternate resolution: Contact support. Standard response: Your order has been cancelled."
+  },
+  {
+    "id": 62,
+    "title": "Unable to cancel order",
+    "category": "Orders",
+    "keywords": [
+      "unable",
+      "cancel",
+      "order",
+      "orders",
+      "explain",
+      "policy",
+      "return",
+      "later"
+    ],
+    "solution": "Explain policy",
+    "alternate_solution": "Return later",
+    "company_response": "Order cancellation window has passed.",
+    "content": "Issue: Unable to cancel order. Category: Orders. Primary resolution: Explain policy. Alternate resolution: Return later. Standard response: Order cancellation window has passed."
+  },
+  {
+    "id": 63,
+    "title": "Modify order request",
+    "category": "Orders",
+    "keywords": [
+      "modify",
+      "order",
+      "orders",
+      "allow",
+      "before",
+      "dispatch",
+      "cancel",
+      "reorder"
+    ],
+    "solution": "Allow before dispatch",
+    "alternate_solution": "Cancel and reorder",
+    "company_response": "Please modify before dispatch.",
+    "content": "Issue: Modify order request. Category: Orders. Primary resolution: Allow before dispatch. Alternate resolution: Cancel and reorder. Standard response: Please modify before dispatch."
+  },
+  {
+    "id": 64,
+    "title": "Order not visible",
+    "category": "Orders",
+    "keywords": [
+      "order",
+      "visible",
+      "orders",
+      "refresh",
+      "account",
+      "check",
+      "backend"
+    ],
+    "solution": "Refresh account",
+    "alternate_solution": "Check backend",
+    "company_response": "We are checking your order details.",
+    "content": "Issue: Order not visible. Category: Orders. Primary resolution: Refresh account. Alternate resolution: Check backend. Standard response: We are checking your order details."
+  },
+  {
+    "id": 65,
+    "title": "Duplicate order placed",
+    "category": "Orders",
+    "keywords": [
+      "duplicate",
+      "order",
+      "placed",
+      "orders",
+      "cancel",
+      "refund",
+      "extra"
+    ],
+    "solution": "Cancel duplicate",
+    "alternate_solution": "Refund extra",
+    "company_response": "We have cancelled the duplicate order.",
+    "content": "Issue: Duplicate order placed. Category: Orders. Primary resolution: Cancel duplicate. Alternate resolution: Refund extra. Standard response: We have cancelled the duplicate order."
+  },
+  {
+    "id": 66,
+    "title": "Order stuck in processing",
+    "category": "Orders",
+    "keywords": [
+      "order",
+      "stuck",
+      "processing",
+      "orders",
+      "check",
+      "status",
+      "escalate"
+    ],
+    "solution": "Check status",
+    "alternate_solution": "Escalate issue",
+    "company_response": "We are resolving the processing delay.",
+    "content": "Issue: Order stuck in processing. Category: Orders. Primary resolution: Check status. Alternate resolution: Escalate issue. Standard response: We are resolving the processing delay."
+  },
+  {
+    "id": 67,
+    "title": "Order confirmation not received",
+    "category": "Orders",
+    "keywords": [
+      "order",
+      "confirmation",
+      "received",
+      "orders",
+      "resend",
+      "check",
+      "email"
+    ],
+    "solution": "Resend confirmation",
+    "alternate_solution": "Check email",
+    "company_response": "Confirmation has been resent.",
+    "content": "Issue: Order confirmation not received. Category: Orders. Primary resolution: Resend confirmation. Alternate resolution: Check email. Standard response: Confirmation has been resent."
+  },
+  {
+    "id": 68,
+    "title": "Invoice not available",
+    "category": "Orders",
+    "keywords": [
+      "invoice",
+      "available",
+      "orders",
+      "send",
+      "download",
+      "option"
+    ],
+    "solution": "Send invoice",
+    "alternate_solution": "Download option",
+    "company_response": "Invoice is now available.",
+    "content": "Issue: Invoice not available. Category: Orders. Primary resolution: Send invoice. Alternate resolution: Download option. Standard response: Invoice is now available."
+  },
+  {
+    "id": 69,
+    "title": "Order shipped incorrectly",
+    "category": "Orders",
+    "keywords": [
+      "order",
+      "shipped",
+      "incorrectly",
+      "orders",
+      "return",
+      "refund"
+    ],
+    "solution": "Assist return",
+    "alternate_solution": "Refund",
+    "company_response": "We will help you return the order.",
+    "content": "Issue: Order shipped incorrectly. Category: Orders. Primary resolution: Assist return. Alternate resolution: Refund. Standard response: We will help you return the order."
+  },
+  {
+    "id": 70,
+    "title": "Order delayed due to stock",
+    "category": "Orders",
+    "keywords": [
+      "order",
+      "delayed",
+      "due",
+      "stock",
+      "orders",
+      "inform",
+      "timeline",
+      "cancellation"
+    ],
+    "solution": "Inform timeline",
+    "alternate_solution": "Offer cancellation",
+    "company_response": "Item will be restocked soon.",
+    "content": "Issue: Order delayed due to stock. Category: Orders. Primary resolution: Inform timeline. Alternate resolution: Offer cancellation. Standard response: Item will be restocked soon."
+  },
+  {
+    "id": 71,
+    "title": "Product damaged after use",
+    "category": "Returns",
+    "keywords": [
+      "product",
+      "damaged",
+      "after",
+      "use",
+      "returns",
+      "check",
+      "warranty",
+      "reject",
+      "claim"
+    ],
+    "solution": "Check warranty",
+    "alternate_solution": "Reject claim",
+    "company_response": "Please check warranty coverage.",
+    "content": "Issue: Product damaged after use. Category: Returns. Primary resolution: Check warranty. Alternate resolution: Reject claim. Standard response: Please check warranty coverage."
+  },
+  {
+    "id": 72,
+    "title": "Late return request",
+    "category": "Returns",
+    "keywords": [
+      "late",
+      "return",
+      "returns",
+      "reject",
+      "discount"
+    ],
+    "solution": "Reject request",
+    "alternate_solution": "Offer discount",
+    "company_response": "Return window has expired.",
+    "content": "Issue: Late return request. Category: Returns. Primary resolution: Reject request. Alternate resolution: Offer discount. Standard response: Return window has expired."
+  },
+  {
+    "id": 73,
+    "title": "Used product return request",
+    "category": "Returns",
+    "keywords": [
+      "used",
+      "product",
+      "return",
+      "returns",
+      "reject",
+      "support"
+    ],
+    "solution": "Reject return",
+    "alternate_solution": "Offer support",
+    "company_response": "Used items are not eligible for return.",
+    "content": "Issue: Used product return request. Category: Returns. Primary resolution: Reject return. Alternate resolution: Offer support. Standard response: Used items are not eligible for return."
+  },
+  {
+    "id": 74,
+    "title": "Packaging missing for return",
+    "category": "Returns",
+    "keywords": [
+      "packaging",
+      "missing",
+      "return",
+      "returns",
+      "reject",
+      "partial",
+      "refund"
+    ],
+    "solution": "Reject return",
+    "alternate_solution": "Partial refund",
+    "company_response": "Original packaging required.",
+    "content": "Issue: Packaging missing for return. Category: Returns. Primary resolution: Reject return. Alternate resolution: Partial refund. Standard response: Original packaging required."
+  },
+  {
+    "id": 75,
+    "title": "Return refund partial",
+    "category": "Returns",
+    "keywords": [
+      "return",
+      "refund",
+      "partial",
+      "returns",
+      "explain",
+      "deduction",
+      "escalate",
+      "case"
+    ],
+    "solution": "Explain deduction",
+    "alternate_solution": "Escalate case",
+    "company_response": "Refund adjusted as per policy.",
+    "content": "Issue: Return refund partial. Category: Returns. Primary resolution: Explain deduction. Alternate resolution: Escalate case. Standard response: Refund adjusted as per policy."
+  },
+  {
+    "id": 76,
+    "title": "High delay complaint",
+    "category": "Delivery",
+    "keywords": [
+      "high",
+      "delay",
+      "complaint",
+      "delivery",
+      "priority",
+      "compensation"
+    ],
+    "solution": "Priority delivery",
+    "alternate_solution": "Compensation",
+    "company_response": "We are expediting your delivery.",
+    "content": "Issue: High delay complaint. Category: Delivery. Primary resolution: Priority delivery. Alternate resolution: Compensation. Standard response: We are expediting your delivery."
+  },
+  {
+    "id": 77,
+    "title": "Severe payment issue",
+    "category": "Payments",
+    "keywords": [
+      "severe",
+      "payment",
+      "payments",
+      "immediate",
+      "refund",
+      "escalate",
+      "urgent"
+    ],
+    "solution": "Immediate refund",
+    "alternate_solution": "Escalate urgent",
+    "company_response": "Your issue is being handled urgently.",
+    "content": "Issue: Severe payment issue. Category: Payments. Primary resolution: Immediate refund. Alternate resolution: Escalate urgent. Standard response: Your issue is being handled urgently."
+  },
+  {
+    "id": 78,
+    "title": "Critical account issue",
+    "category": "Account",
+    "keywords": [
+      "critical",
+      "account",
+      "immediate",
+      "support",
+      "escalate",
+      "team"
+    ],
+    "solution": "Immediate support",
+    "alternate_solution": "Escalate team",
+    "company_response": "We are prioritizing your request.",
+    "content": "Issue: Critical account issue. Category: Account. Primary resolution: Immediate support. Alternate resolution: Escalate team. Standard response: We are prioritizing your request."
+  },
+  {
+    "id": 79,
+    "title": "Major app bug",
+    "category": "Technical",
+    "keywords": [
+      "major",
+      "app",
+      "bug",
+      "technical",
+      "fix",
+      "update",
+      "temporary",
+      "workaround"
+    ],
+    "solution": "Fix update",
+    "alternate_solution": "Temporary workaround",
+    "company_response": "Our team is working on a fix.",
+    "content": "Issue: Major app bug. Category: Technical. Primary resolution: Fix update. Alternate resolution: Temporary workaround. Standard response: Our team is working on a fix."
+  },
+  {
+    "id": 80,
+    "title": "Special offer complaint",
+    "category": "Offers",
+    "keywords": [
+      "special",
+      "complaint",
+      "offers",
+      "new",
+      "escalate",
+      "case"
+    ],
+    "solution": "Provide new offer",
+    "alternate_solution": "Escalate case",
+    "company_response": "We will provide a better offer.",
+    "content": "Issue: Special offer complaint. Category: Offers. Primary resolution: Provide new offer. Alternate resolution: Escalate case. Standard response: We will provide a better offer."
+  }
+]
