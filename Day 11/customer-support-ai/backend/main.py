@@ -81,7 +81,7 @@ def health_check() -> dict:
     return {
         "status": "ok",
         "app": settings.app_name,
-        "sarvam_configured": bool(settings.sarvam_api_key),
+        "groq_configured": bool(settings.groq_api_key),
         "policies_path": str(settings.policies_path),
     }
 
@@ -101,8 +101,10 @@ def generate_support_response(payload: GenerateRequest) -> GenerateResponse:
         prompt_data["prompt"],
         prompt_data["temperature"],
         prompt_data["max_tokens"],
+        system_prompt=prompt_data["system_prompt"],
         query=complaint,
         docs=retrieval["docs"],
+        retry_prompt=prompt_data["retry_prompt"],
         is_fallback=retrieval["is_fallback"],
         mode=payload.mode,
     )

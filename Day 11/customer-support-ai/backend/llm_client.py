@@ -2,17 +2,17 @@ from __future__ import annotations
 
 from typing import Any
 
-import requests
+from groq import Groq
 
 from config import settings
 
 
+FALLBACK_RESPONSE_TEXT = "No relevant policy found. Please escalate this issue to a human support agent."
+
+
 def build_local_response(query: str, docs: list[dict], is_fallback: bool, mode: str) -> str:
     if is_fallback or not docs:
-        return (
-            "Please escalate this issue to a human support agent. "
-            "We could not find a reliable policy match for this complaint."
-        )
+        return FALLBACK_RESPONSE_TEXT
 
     primary_doc = docs[0]
     base_response = primary_doc.get("company_response") or "We will review your case."
@@ -30,53 +30,85 @@ def build_local_response(query: str, docs: list[dict], is_fallback: bool, mode: 
     )
 
 
+def _get_client() -> Groq:
+    return Groq(api_key=settings.groq_api_key)
+
+
+def _extract_text(response: Any) -> str:
+    choices = getattr(response, "choices", None) or []
+    if not choices:
+        return ""
+
+    message = getattr(choices[0], "message", None)
+    content = getattr(message, "content", "") if message else ""
+    return (content or "").strip()
+
+
 def generate_response(
     prompt: str,
     temperature: float,
     max_tokens: int,
     *,
+    system_prompt: str,
     query: str,
     docs: list[dict],
+    retry_prompt: str,
     is_fallback: bool,
     mode: str,
 ) -> dict[str, Any]:
-    if not settings.sarvam_api_key:
+    if is_fallback:
+        return {
+            "text": FALLBACK_RESPONSE_TEXT,
+            "model": "rule-based-fallback",
+            "used_mock": False,
+            "usage": None,
+            "error": None,
+        }
+
+    if not settings.groq_api_key:
         return {
             "text": build_local_response(query, docs, is_fallback, mode),
             "model": "local-fallback",
             "used_mock": True,
             "usage": None,
-            "error": "SARVAM_API_KEY is missing. Returned a local fallback response.",
+            "error": "GROQ_API_KEY is missing. Returned a local fallback response.",
         }
 
-    headers = {
-        "Content-Type": "application/json",
-        "api-subscription-key": settings.sarvam_api_key,
-    }
-    payload = {
-        "model": settings.sarvam_model,
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": temperature,
-        "max_tokens": max_tokens,
-    }
+    client = _get_client()
+    messages = []
+    if system_prompt.strip():
+        messages.append({"role": "system", "content": system_prompt})
+    messages.append({"role": "user", "content": prompt})
 
     try:
-        response = requests.post(
-            settings.sarvam_api_url,
-            headers=headers,
-            json=payload,
-            timeout=settings.request_timeout_seconds,
+        response = client.chat.completions.create(
+            model=settings.groq_model,
+            messages=messages,
+            temperature=temperature,
+            max_tokens=max_tokens,
         )
-        response.raise_for_status()
-        data = response.json()
-        content = data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+        content = _extract_text(response)
         if not content:
-            raise ValueError("Sarvam API returned an empty response.")
+            retry_messages = []
+            if system_prompt.strip():
+                retry_messages.append({"role": "system", "content": system_prompt})
+            retry_messages.append({"role": "user", "content": retry_prompt})
+            response = client.chat.completions.create(
+                model=settings.groq_model,
+                messages=retry_messages,
+                temperature=0.2,
+                max_tokens=120,
+            )
+            content = _extract_text(response)
+
+        if not content:
+            raise ValueError("Groq returned an empty response.")
+
         return {
             "text": content,
-            "model": data.get("model", settings.sarvam_model),
+            "model": getattr(response, "model", settings.groq_model),
             "used_mock": False,
-            "usage": data.get("usage"),
+            "usage": getattr(response, "usage", None),
             "error": None,
         }
     except Exception as exc:
@@ -85,5 +117,5 @@ def generate_response(
             "model": "local-fallback",
             "used_mock": True,
             "usage": None,
-            "error": f"Sarvam request failed: {exc}",
+            "error": f"Groq request failed: {exc}",
         }

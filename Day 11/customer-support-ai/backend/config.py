@@ -25,12 +25,8 @@ _load_env()
 @dataclass(frozen=True)
 class Settings:
     app_name: str = os.getenv("APP_NAME", "Customer Support AI")
-    sarvam_api_key: str = os.getenv("SARVAM_API_KEY", "")
-    sarvam_api_url: str = os.getenv(
-        "SARVAM_API_URL",
-        "https://api.sarvam.ai/v1/chat/completions",
-    )
-    sarvam_model: str = os.getenv("SARVAM_MODEL", "sarvam-105b")
+    groq_api_key: str = os.getenv("GROQ_API_KEY", "")
+    groq_model: str = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
     top_k: int = int(os.getenv("TOP_K", "3"))
     bm25_low_score_threshold: float = float(os.getenv("BM25_LOW_SCORE_THRESHOLD", "0.5"))
     request_timeout_seconds: int = int(os.getenv("REQUEST_TIMEOUT_SECONDS", "45"))
