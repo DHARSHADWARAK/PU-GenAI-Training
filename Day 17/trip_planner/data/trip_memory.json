@@ -1,0 +1,32 @@
+{
+  "goa": {
+    "last_hotel_preference": "beach resort",
+    "last_food_preference": "seafood",
+    "last_transport_preference": "train",
+    "last_budget": 30000
+  },
+  "bangkok": {
+    "last_hotel_preference": "beach resort",
+    "last_food_preference": "seafood",
+    "last_transport_preference": "train",
+    "last_budget": 30000
+  },
+  "nellore": {
+    "last_hotel_preference": "beach resort",
+    "last_food_preference": "seafood",
+    "last_transport_preference": "train",
+    "last_budget": 30000
+  },
+  "hyderabad": {
+    "last_hotel_preference": "hotel",
+    "last_food_preference": "seafood",
+    "last_transport_preference": "train",
+    "last_budget": 30000
+  },
+  "mumbai": {
+    "last_hotel_preference": "beach resort",
+    "last_food_preference": "seafood",
+    "last_transport_preference": "train",
+    "last_budget": 30000
+  }
+}

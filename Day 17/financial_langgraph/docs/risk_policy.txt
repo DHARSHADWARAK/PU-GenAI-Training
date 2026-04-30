@@ -1,0 +1,6 @@
+Internal Risk Policy
+
+Client recommendations must include downside risk, liquidity risk, valuation risk, and time horizon suitability.
+High-volatility growth stocks require explicit client risk tolerance confirmation.
+No single equity recommendation should be presented as guaranteed return.
+Research summaries should separate facts, assumptions, and analyst opinion.

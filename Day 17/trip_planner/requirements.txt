@@ -1,0 +1,11 @@
+langgraph
+python-dotenv
+certifi
+fastapi
+uvicorn
+jinja2
+python-multipart
+streamlit
+reportlab
+chromadb
+langchain-openai

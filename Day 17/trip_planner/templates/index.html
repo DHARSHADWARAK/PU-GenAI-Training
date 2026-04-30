@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Multi-Agent Trip Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="workspace">
+        <aside class="panel input-panel">
+          <div class="brand">
+            <span class="mark">TP</span>
+            <div>
+              <h1>Trip Planner</h1>
+              <p>LangGraph multi-agent travel planning</p>
+            </div>
+          </div>
+
+          <form class="planner-form" action="/plan" method="post">
+            <label for="trip_request">Trip request</label>
+            <textarea id="trip_request" name="trip_request" rows="12" required>{{ result.query if result else sample_query }}</textarea>
+            <button type="submit">Generate Plan</button>
+          </form>
+
+          <div class="agent-list">
+            <h2>Agents</h2>
+            <ul>
+              <li>Orchestrator</li>
+              <li>User Input</li>
+              <li>Memory</li>
+              <li>Weather</li>
+              <li>Transport</li>
+              <li>Hotel</li>
+              <li>Places</li>
+              <li>Budget</li>
+              <li>Itinerary</li>
+              <li>Review</li>
+              <li>PDF Generator</li>
+            </ul>
+          </div>
+        </aside>
+
+        <section class="content">
+          {% if not result %}
+            <section class="empty-state">
+              <h2>Build a complete trip plan</h2>
+              <p>Enter a request with destination, duration, budget, travelers, transport, hotel, food, and places of interest. The orchestrator will run the agents, resolve budget conflicts, save memory, and generate a PDF.</p>
+            </section>
+          {% else %}
+            {% set state = result.state %}
+            {% set prefs = state.trip_preferences %}
+            {% set budget = state.budget_summary %}
+            {% set hotel = state.hotel_data.selected %}
+            {% set transport = state.transport_data.recommended %}
+
+            <section class="summary-band">
+              <div>
+                <span class="eyebrow">Final Output</span>
+                <h2>{{ prefs.days }}-Day {{ prefs.destination }} Trip</h2>
+                <p>{{ prefs.source }} to {{ prefs.destination }} for {{ prefs.travelers }} {{ prefs.travel_type }} traveler(s)</p>
+              </div>
+              {% if result.pdf_filename %}
+                <a class="download" href="/download/{{ result.pdf_filename }}">Download PDF</a>
+              {% endif %}
+            </section>
+
+            <section class="metrics">
+              <article>
+                <span>Budget</span>
+                <strong>Rs. {{ budget.user_budget }}</strong>
+              </article>
+              <article>
+                <span>Estimated</span>
+                <strong>Rs. {{ budget.estimated_total }}</strong>
+              </article>
+              <article>
+                <span>Status</span>
+                <strong>{{ budget.status }}</strong>
+              </article>
+              <article>
+                <span>Retries</span>
+                <strong>{{ state.orchestrator_decision.retries }}</strong>
+              </article>
+            </section>
+
+            <section class="grid two">
+              <article class="panel">
+                <h3>Transport</h3>
+                <p class="large">{{ transport.mode }}</p>
+                <p>{{ transport.summary }}</p>
+                <p class="muted">Estimated cost: Rs. {{ transport.cost }}</p>
+              </article>
+
+              <article class="panel">
+                <h3>Hotel</h3>
+                <p class="large">{{ hotel.name }}</p>
+                <p>{{ hotel.category }} | {{ hotel.nights }} nights</p>
+                <p class="muted">{{ hotel.source }} | Rs. {{ hotel.total_cost }}</p>
+              </article>
+            </section>
+
+            <section class="grid two">
+              <article class="panel">
+                <h3>Weather</h3>
+                <p class="large">{{ state.weather_data.source }}</p>
+                <p>Risk: {{ state.weather_data.risk }}</p>
+                <ul class="compact-list">
+                  {% for day in state.weather_data.forecast[:5] %}
+                    <li>Day {{ day.day }}: {{ day.condition }}{% if day.temperature_c %}, {{ day.temperature_c }} C{% endif %}</li>
+                  {% endfor %}
+                </ul>
+              </article>
+
+              <article class="panel">
+                <h3>Places</h3>
+                <p class="large">{{ state.places_data.source }}</p>
+                <ul class="compact-list">
+                  {% for place in state.places_data.attractions %}
+                    <li>{{ place }}</li>
+                  {% endfor %}
+                </ul>
+              </article>
+            </section>
+
+            <section class="panel">
+              <h3>Agent Flow</h3>
+              <div class="timeline">
+                {% for item in result.trace %}
+                  <div class="step">
+                    <span>{{ loop.index }}</span>
+                    <div>
+                      <strong>{{ item.agent }}</strong>
+                      <em>{{ item.status }}</em>
+                      <p>{{ item.detail }}</p>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </section>
+
+            <section class="panel">
+              <h3>Day-wise Itinerary</h3>
+              <div class="itinerary">
+                {% for day in state.itinerary.days %}
+                  <article>
+                    <h4>Day {{ day.day }}</h4>
+                    <p><strong>Morning:</strong> {{ day.morning }}</p>
+                    <p><strong>Afternoon:</strong> {{ day.afternoon }}</p>
+                    <p><strong>Evening:</strong> {{ day.evening }}</p>
+                  </article>
+                {% endfor %}
+              </div>
+            </section>
+          {% endif %}
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

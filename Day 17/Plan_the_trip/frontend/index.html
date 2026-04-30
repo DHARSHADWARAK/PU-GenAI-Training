@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Trip Planner</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="planner-panel" aria-label="Trip request form">
+        <div class="brand-row">
+          <div>
+            <p class="eyebrow">LangGraph multi-agent backend</p>
+            <h1>AI Trip Planner</h1>
+          </div>
+          <span class="status-pill" id="apiStatus">Checking API</span>
+        </div>
+
+        <form id="tripForm" class="trip-form">
+          <div class="form-grid">
+            <label>
+              Source
+              <input name="source" value="Delhi" autocomplete="address-level2" />
+            </label>
+            <label>
+              Destination
+              <input name="destination" value="Goa" autocomplete="address-level2" />
+            </label>
+            <label>
+              Start date
+              <input name="start_date" type="date" value="2026-05-10" />
+            </label>
+            <label>
+              End date
+              <input name="end_date" type="date" value="2026-05-14" />
+            </label>
+            <label>
+              Budget
+              <input name="budget" type="number" min="0" value="100000" />
+            </label>
+            <label>
+              Travellers
+              <input name="travellers" type="number" min="1" value="2" />
+            </label>
+            <label>
+              Currency
+              <select name="currency">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+              </select>
+            </label>
+            <label>
+              Pace
+              <select name="pace">
+                <option value="balanced">Balanced</option>
+                <option value="relaxed">Relaxed</option>
+                <option value="packed">Packed</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Preferences
+            <textarea name="preferences" rows="3">beaches, food, relaxed pace</textarea>
+          </label>
+
+          <label>
+            User ID
+            <input name="user_id" value="demo-user" />
+          </label>
+
+          <button class="primary-button" type="submit" id="submitButton">
+            Generate trip plan
+          </button>
+        </form>
+      </section>
+
+      <section class="results-panel" aria-label="Trip planning results">
+        <div class="route-visual">
+          <div class="route-card">
+            <span id="routeSource">Delhi</span>
+            <div class="route-line" aria-hidden="true"></div>
+            <span id="routeDestination">Goa</span>
+          </div>
+        </div>
+
+        <div class="agent-strip" id="agentStrip"></div>
+
+        <div class="result-header">
+          <div>
+            <p class="eyebrow">Generated plan</p>
+            <h2 id="resultTitle">Ready when you are</h2>
+          </div>
+          <a class="pdf-link disabled" id="pdfLink" href="#" target="_blank" rel="noreferrer">PDF unavailable</a>
+        </div>
+
+        <div class="summary-grid">
+          <article>
+            <h3>Weather</h3>
+            <p id="weatherSummary">Submit a trip request to fetch weather context.</p>
+          </article>
+          <article>
+            <h3>Transport</h3>
+            <p id="transportSummary">Transport options will appear here.</p>
+          </article>
+          <article>
+            <h3>Hotel</h3>
+            <p id="hotelSummary">Hotel recommendation will appear here.</p>
+          </article>
+          <article>
+            <h3>Budget</h3>
+            <p id="budgetSummary">Budget breakdown will appear here.</p>
+          </article>
+        </div>
+
+        <section class="itinerary-section">
+          <h3>Day-wise itinerary</h3>
+          <div id="itineraryList" class="itinerary-list">
+            <p class="empty-state">No itinerary generated yet.</p>
+          </div>
+        </section>
+
+        <section class="details-grid">
+          <article>
+            <h3>Places</h3>
+            <ul id="placesList"></ul>
+          </article>
+          <article>
+            <h3>Review</h3>
+            <ul id="reviewList"></ul>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

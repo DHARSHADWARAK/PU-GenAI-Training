@@ -1,0 +1,6 @@
+Internal Research Note: Tesla
+
+Previous recommendation: Hold with selective accumulation only for high-risk portfolios.
+Rationale: Tesla has strong brand strength, software optionality, and energy storage growth, but valuation sensitivity remains high.
+Risks: margin pressure, EV demand cyclicality, price cuts, regulatory investigations, and execution risk in autonomous driving.
+Analyst instruction: Before recommending a buy, compare current valuation with delivery growth, free cash flow, and peer EV multiples.

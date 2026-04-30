@@ -1,7 +1,69 @@
-venv/
+# Python
 __pycache__/
-*.pyc
-node_modules/
-.env
+*.py[cod]
+*$py.class
+.Python
+*.so
 .venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
 frontend/dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local app data, uploads, generated reports, and vector stores
+storage/
+reports/
+chroma_db/
+chroma_memory/
+uploads/
+*.sqlite
+*.sqlite3
+
+# Project-specific generated storage
+backend/storage/pdfs/*
+backend/storage/vector_store/*
+!backend/storage/pdfs/.gitkeep
+!backend/storage/vector_store/.gitkeep
+
+Day 17/Plan_the_trip/backend/storage/pdfs/*
+Day 17/Plan_the_trip/backend/storage/vector_store/*
+!Day 17/Plan_the_trip/backend/storage/pdfs/.gitkeep
+!Day 17/Plan_the_trip/backend/storage/vector_store/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
